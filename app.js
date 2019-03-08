@@ -1,5 +1,8 @@
 const { app, BrowserWindow, nativeImage } = require('electron')
 
+// const myModule = require('./app/Clock')
+
+// console.log(myModule);
 
 var image = nativeImage.createFromPath(__dirname + '/assets/images/clock.png'); 
 
